@@ -189,6 +189,19 @@ This file is the entry point of your application. It will load the generated Jav
 
 </li>
 
+
+<li>
+
+Run the Fable compiler to transform Program.fs into Program.fs.js.
+
+```bash
+dotnet fable
+```
+
+If you are missing Program.fs go back to the [Fable setup guide](/docs/2-steps/your-first-fable-project).
+
+</li>
+
 <li>
 
 Run Vite and go to the indicated URL.
